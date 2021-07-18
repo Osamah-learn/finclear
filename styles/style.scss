@@ -1,0 +1,29 @@
+/* //variabels */
+
+
+$header1 : 	3.5rem;
+$header2 : 4rem;
+$header3 : 2.5rem;
+$header4 : 2rem;
+$text : 2.5rem;
+$bluetext : 2.5rem;
+$bluetext : 2.5rem;
+$gradient:linear-gradient(to right, #00d2ff, #3a7bd5);
+$background-color: #3a7bd5;
+
+@mixin flex($justify, $align, $direction){
+    display: flex;
+    justify-content: $justify;
+    align-items:$align;
+    flex-direction:$direction;
+}
+
+
+
+
+/* //Imports */
+@import "general";
+@import "intro";
+@import "cards";
+@import "contact";
+@import "footer";
